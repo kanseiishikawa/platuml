@@ -1,0 +1,12 @@
+@startuml sequence-sample
+title sequence-sample
+
+hide footbox
+
+actor user
+Participant database as DB
+
+user -> DB : access
+DB -> user : authorization
+
+@enduml
